@@ -7,8 +7,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    double v0 = 42058.1;
-    double angle = M_PI/2;
+    double v0 = 42058.1; // TODO: uzeti iz slajdera v0 i ugao
+    double angle = M_PI/2; 
     ui->widget->startSimulation(v0, angle);
 }
 

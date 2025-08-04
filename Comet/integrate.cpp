@@ -102,3 +102,8 @@ std::pair<double, double> getV0Range(){
 
     return {0.8 * v_circ, 1.2 * v_esc};
 }
+
+std::pair<double, double> initialPosition(){
+    auto [x, y] = stw(initialX, 0);
+    return {x, y};
+}

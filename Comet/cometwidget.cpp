@@ -11,25 +11,18 @@ CometWidget::CometWidget(QWidget *parent)
 
 }
 
-void CometWidget::startSimulation(double v0, double angleDeg)
+void CometWidget::startSimulation(double v0, double angleRad)
 {
     windowWidth = this->width();
     windowHeight = this->height();
     starX = windowWidth / 2;
     starY = windowHeight / 2;
 
-
-    integrator = getIntegrator(v0, angleDeg);
+    integrator = getIntegrator(v0, angleRad);
 
     path.clear();
-    x = initialX;
-    y = 0;
-
-    double absX = x * scale + starX;
-    double absY = starY - scale * y;
-
-    x = absX;
-    y = absY;
+    
+    auto [x, y] = initialPosition();
 
     timer.start();
 }
@@ -60,11 +53,12 @@ void CometWidget::updatePosition()
     update(); // repaint
 }
 
+// XXX: left redundant code for backwards compatibilty, delete it ~Filip
 QPointF CometWidget::toScreen(double realX, double realY) const
 {
-    double screenX = starX + (realX * scale);
-    double screenY = starY + (realY * scale);
-    return QPointF(screenX, screenY);
+    /*double screenX = starX + (realX * scale);
+    double screenY = starY + (realY * scale);*/
+    return QPointF(realX, realY);
 }
 
 void CometWidget::paintEvent(QPaintEvent *)

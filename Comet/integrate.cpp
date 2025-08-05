@@ -71,12 +71,12 @@ Integrator getIntegrator(double v0, double alpha){
     vx = v0 * cos(alpha);
     vy = v0 * sin(alpha);
 
-    E0 = 0.5 * v0 * v0 - G * M / (-initialX);
+    E0 = 0.5 * v0 * v0 - G * M / initialX;
 
-    scale = (windowWidth / 5.0 - starX) / (-initialX);
+    scale = (windowWidth / 5.0 - starX) / initialX;
 
-    double v_circ = sqrt(G * M / (-initialX));
-    double v_esc = sqrt(2) * v_circ;
+    double v_circ = sqrt(G * M / initialX);
+    //double v_esc = sqrt(2) * v_circ;
     if(v0 <= 1.1 * v_circ && alpha >= M_PI / 4)
         return &euler_cromer;
     return &leapfrog;
@@ -97,7 +97,7 @@ bool collision(double x, double y){
 }
 
 std::pair<double, double> getV0Range(){
-    double v_circ = sqrt(G * M / (-initialX));
+    double v_circ = sqrt(G * M / initialX);
     double v_esc  = sqrt(2) * v_circ;
 
     return {0.8 * v_circ, 1.2 * v_esc};

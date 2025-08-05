@@ -5,9 +5,9 @@
 
 const double G = 6.67e-11;   // m^3/(s^2kg)
 const double M = 1.989e30;   // kg
-const double initialX = -0.75e11; // m;
+const double initialX = 0.75e11; // m;
 const double sunR = 6.96e8;
-const double dt = 60 * 60; // s
+const double dt = 6 * 60 * 60; // s
 
 typedef void (*Integrator)(double& x, double& y);
 
@@ -22,5 +22,7 @@ bool collision(double x, double y);
 double energy(double x, double y);
 std::pair<double, double> getV0Range();
 std::pair<double, double> initialPosition();
+
+std::pair<double, double> stw(double, double);
 
 #endif

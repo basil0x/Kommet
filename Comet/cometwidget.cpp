@@ -19,10 +19,13 @@ void CometWidget::startSimulation(double v0, double angleRad)
     starY = windowHeight / 2;
 
     integrator = getIntegrator(v0, angleRad);
+    qDebug() << scale << "\n";
 
     path.clear();
     
-    auto [x, y] = initialPosition();
+    auto tmp = initialPosition();
+    x = tmp.first;
+    y = tmp.second;
 
     timer.start();
 }
@@ -34,11 +37,6 @@ void CometWidget::stopSimulation()
 
 void CometWidget::updatePosition()
 {
-
-    qDebug() << "Updating position...\n";
-    qDebug() << "x:" << x <<"\n";
-    qDebug() << "y:" << y <<"\n";
-
     // Dodaj prethodnu poziciju u path
     path.append(QPointF(x, y));
 
@@ -53,14 +51,6 @@ void CometWidget::updatePosition()
     update(); // repaint
 }
 
-// XXX: left redundant code for backwards compatibilty, delete it ~Filip
-QPointF CometWidget::toScreen(double realX, double realY) const
-{
-    /*double screenX = starX + (realX * scale);
-    double screenY = starY + (realY * scale);*/
-    return QPointF(realX, realY);
-}
-
 void CometWidget::paintEvent(QPaintEvent *)
 {
     QPainter p(this);
@@ -68,7 +58,7 @@ void CometWidget::paintEvent(QPaintEvent *)
 
     // Crtanje sunca
     p.setBrush(Qt::yellow);
-    p.drawEllipse(QPointF(starX, starY), 5, 5);
+    p.drawEllipse(QPointF(starX, starY), 8, 8);
 
     // Crtanje putanje komete
     p.setPen(Qt::white);

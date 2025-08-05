@@ -1,0 +1,9 @@
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/Comet.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/edit_cache.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/list_install_components.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/local.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/strip.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/Comet_autogen_timestamp_deps.dir
+/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/Comet_autogen.dir

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ccf7289e38b43080318b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Comet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Comet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Comet-Debug-fdcda550d6d2ee632b6f.json",
+					"name" : "Comet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Comet_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Comet_autogen-Debug-ab719377d0ea87e51a61.json",
+					"name" : "Comet_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Comet_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Comet_autogen_timestamp_deps-Debug-7a5c2f0d60e11c4dcdd0.json",
+					"name" : "Comet_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/filip/Desktop/Kommet/Comet/build/Desktop_Qt_6_9_1-Debug",
+		"source" : "/home/filip/Desktop/Kommet/Comet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

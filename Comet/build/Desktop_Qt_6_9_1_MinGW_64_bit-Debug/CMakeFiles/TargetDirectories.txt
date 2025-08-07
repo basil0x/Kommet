@@ -1,9 +1,0 @@
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Comet.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Comet_autogen_timestamp_deps.dir
-C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Comet_autogen.dir

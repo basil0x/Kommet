@@ -1,0 +1,11 @@
+# ninja log v6
+5	616	7762734079484080	Comet_autogen/timestamp	d1fde5d16bfcd95b
+5	616	7762734079484080	Comet_autogen/mocs_compilation.cpp	d1fde5d16bfcd95b
+5	616	7762734079484080	C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Comet_autogen/timestamp	d1fde5d16bfcd95b
+5	616	7762734079484080	C:/Users/ogina/Documents/GitHub/Kommet/Comet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Comet_autogen/mocs_compilation.cpp	d1fde5d16bfcd95b
+627	819	7762734080316031	CMakeFiles/Comet.dir/integrate.cpp.obj	3158d9d2ef799773
+622	2061	7762734080266126	CMakeFiles/Comet.dir/main.cpp.obj	f2fc40a926250ef2
+620	2078	7762734080247664	CMakeFiles/Comet.dir/Comet_autogen/mocs_compilation.cpp.obj	f91f1a81c716b8b9
+631	2160	7762734080356095	CMakeFiles/Comet.dir/cometwidget.cpp.obj	f39246a871e0dcd9
+624	2197	7762734080286060	CMakeFiles/Comet.dir/mainwindow.cpp.obj	6d6c2c561eab3f8a
+2198	2378	7762734096025560	Comet.exe	17f3f2d24dde5a03

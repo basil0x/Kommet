@@ -16,6 +16,8 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    int on_pushButton_clicked();
+    int on_pushButton_clicked_angle();
 
 private:
     Ui::MainWindow *ui;

@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::on_pushButton_clicked_start()
 {
-    double v0 = on_pushButton_clicked(); // TODO: uzeti iz slajdera v0 i ugao
+    double v0 = on_pushButton_clicked();
     double angle = on_pushButton_clicked_angle();
     ui->widget->startSimulation(v0, angle);
 }

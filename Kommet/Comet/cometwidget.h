@@ -27,7 +27,7 @@ private:
     QTimer timer;
     QVector<QPointF> path; // istorija pozicija
     double x, y;           // trenutna pozicija na ekranu
-    Integrator integrator; // funkcija za integraciju
+    Integrator integrator;
 
     QPointF toScreen(double x, double y) const;
 };
